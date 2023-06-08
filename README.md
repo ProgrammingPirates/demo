@@ -8,6 +8,16 @@ npx thirdweb create --template vite-javascript-starter
 
 You can start editing the page by modifying `src/main.jsx`. The page auto-updates as you edit the file.
 
+1. npm install
+2. npm install -D tailwindcss postcss autoprefixer
+3. npx tailwindcss init -p
+4. npm i react-router-dom
+5. npm i react-icons 
+6. npm install @polybase/client
+7. npm i @thirdweb-dev/react
+and then 
+8. npm run dev
+
 On `src/index.jsx`, you'll find our `ThirdwebProvider` wrapping your app,
 this is necessary for our [hooks](https://portal.thirdweb.com/react) and
 [UI Components](https://portal.thirdweb.com/ui-components) to work.
